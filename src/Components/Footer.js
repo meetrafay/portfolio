@@ -9,18 +9,18 @@ function Footer() {
   return (
     <footer className="footer-bar">
       <div className="socialMedia">
-        <a href="https://github.com/meetrafay" target="_blank">
+        <a href="https://github.com/meetrafay"  rel="noopener noreferrer" target="_blank">
           <GitHubIcon />
         </a>
 
-        <a href="https://www.linkedin.com/in/rafayhere" target="_blank">
+        <a href="https://www.linkedin.com/in/rafayhere" rel="noopener noreferrer" target="_blank">
           <LinkedInIcon />
         </a>
-        <a href="https://www.facebook.com/profile.php?id=100008885321646" target="_blank">
+        <a href="https://www.facebook.com/profile.php?id=100008885321646" rel="noopener noreferrer" target="_blank">
           
           <FacebookIcon />
         </a>
-        <a href="https://www.instagram.com/meet_raffay/" target="_blank">
+        <a href="https://www.instagram.com/meet_raffay/" rel="noopener noreferrer" target="_blank">
           <InstagramIcon />
         </a>
       </div>

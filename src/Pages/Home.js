@@ -27,16 +27,16 @@ function Home() {
           </p>
         </div>
         <div className="social-icons">
-          <a href="https://www.linkedin.com/in/rafayhere" target="_blank">
+          <a href="https://www.linkedin.com/in/rafayhere"  rel="noopener noreferrer" target="_blank">
             <LinkedInIcon />
           </a>
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=khanrafay358@gmail.com"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
           >
             <EmailIcon />
           </a>
-          <a href="https://github.com/meetrafay" target="_blank">
+          <a href="https://github.com/meetrafay"  rel="noopener noreferrer" target="_blank">
             <GitHubIcon />
           </a>
         </div>
@@ -73,7 +73,7 @@ function Home() {
           </div>
           <a
             href="https://www.coursera.org/account/accomplishments/verify/YHFHRQ9FFLMH"
-            target="_blank"
+            target="_blank"  rel="noopener noreferrer"
           >
             Click here to see the certificate
           </a>
@@ -85,7 +85,7 @@ function Home() {
           </div>
           <a
             href="https://www.coursera.org/account/accomplishments/verify/2TDNRYJXV34B"
-            target="_blank"
+            target="_blank"  rel="noopener noreferrer"
           >
             Click here to see the certificate
           </a>
@@ -97,7 +97,7 @@ function Home() {
           </div>
           <a
             href="https://www.coursera.org/account/accomplishments/verify/U5A5GJRB54BX "
-            target="_blank"
+            target="_blank"  rel="noopener noreferrer"
           >
             Click here to see the certificate
           </a>

@@ -13,7 +13,7 @@ function ProjectDisplay() {
       <h1> {project.name}</h1>
       <img src={project.image} alt="img" />
       <p>Skills : {project.skills}</p>
-      <a href={project.link} target="_blank">
+      <a href={project.link}  target="_blank" rel="noopener noreferrer" >
         <GitHubIcon />
       </a>
     </div>
