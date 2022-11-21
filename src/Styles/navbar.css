@@ -1,0 +1,128 @@
+header {
+  background-color: #21325e;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.resume-btn {
+  background-color:transparent;
+  color: white;
+  border: 2px solid #e7e7e7;
+}
+
+.resume-btn:hover {
+  background-color: #e7e7e7;
+  color: black;
+}
+
+.logo {
+  
+  margin-left: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.navbar ul li a:hover {
+  color: rgb(254, 254, 0);
+}
+
+.icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .icon {
+    display: flex;
+    justify-content: space-between;
+  }
+  .icon button {
+    background: transparent;
+    color: white;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+#open .navbar {
+  display: flex;
+  
+}
+
+#open {
+  height: 100vh;
+ position: absolute;
+
+  
+  
+}
+
+#open .logo {
+  /* display: flex;
+  align-items: baseline;
+  margin-top: 10px; */
+  visibility: hidden;
+}
+
+#open .icon {
+  display: flex;
+  align-items: baseline;
+ 
+}
+
+#open .navbar ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  justify-items: flex-start;
+  overflow: hidden;
+}
+#open .navbar ul li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+

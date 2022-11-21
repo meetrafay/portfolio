@@ -1,0 +1,28 @@
+.footer-bar {
+  background-color: #21325e;
+  padding: 15px;
+  width: 100%;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.socialMedia a {
+  color: white;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.socialMedia a:hover{
+  color:  rgb(254, 254, 0);
+}
+
+.copyright {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}

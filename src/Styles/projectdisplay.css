@@ -1,0 +1,29 @@
+.projectdisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 21px;
+}
+
+.projectdisplay img{
+    width: 50%;
+    height: 350px;
+    margin-top: 10px;
+   
+}
+.projectdisplay p,.projectdisplay h1{
+    color: #3e497a;
+    margin-top: 10px;
+}
+
+.projectdisplay svg{
+    margin-top: 10px;
+    font-size: 30px;
+}
+@media screen and (max-width: 720px){
+    .projectdisplay img{
+        height: 100px;
+    }
+}

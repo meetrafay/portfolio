@@ -1,0 +1,114 @@
+/* Introduction Section */
+
+.home {
+  display: flex;
+  background-color: #21325e;
+  flex-direction: column;
+  padding-top: 160px;
+  padding-bottom: 150px;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  color: rgb(254, 254, 0);
+}
+
+.name,
+.discribtion {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  padding: 10px;
+  text-align: center;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.social-icons a {
+  padding: 10px;
+  color: white;
+}
+
+.social-icons a svg:hover {
+  color: rgb(254, 254, 0);
+}
+
+/* Skills Section */
+
+.skills {
+  color: #3e497a;
+
+  font-family: "Arial", sans-serif;
+
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  color: #21325e;
+  font-size: 20px;
+  padding: 25px;
+}
+
+.skill {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 320px) {
+  .skill {
+    margin: 20px;
+  }
+  .name {
+    font-size: 20px;
+  }
+}
+
+/* Certifications Section */
+
+.certications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  background-color: rgb(207, 199, 237);
+}
+
+.certications h1 {
+  color: #21325e;
+  font-size: 25px;
+  padding: 25px;
+}
+
+.certications .log svg {
+  color: blue;
+  font-size: 35px;
+  float: right;
+}
+
+.certications .box1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 30px;
+  width: 50%;
+  margin: 25px 0px;
+
+  background-color: #e8e8e8;
+}
+
+.certications h3,
+.certications a {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 320px) {
+  .certications .box1 {
+    width: 80%;
+  }
+}
