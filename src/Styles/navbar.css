@@ -82,8 +82,9 @@ header {
   }
 
   .logo {
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex;
+    justify-content: flex-start; */
+    visibility: hidden;
   }
 }
 
@@ -93,11 +94,9 @@ header {
 }
 
 #open {
-  height: 100vh;
+  height: 70vh;
  position: absolute;
-
-  
-  
+ z-index: 1;
 }
 
 #open .logo {

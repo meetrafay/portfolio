@@ -70,6 +70,24 @@
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .skill {
+    margin: 20px;
+  }
+  .name {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .skill {
+    margin: 20px;
+  }
+  .name {
+    font-size: 20px;
+  }
+}
+
 /* Certifications Section */
 
 .certications {
@@ -113,7 +131,20 @@
 
 @media only screen and (max-width: 320px) {
   .certications .box1 {
-    width: 80%;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .certications .box1 {
+    width: 90%;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  .certications .box1 {
+    width: 90%;
   }
 }
 
