@@ -1,23 +1,28 @@
 import React from "react";
 import "../Styles/home.css";
+import CertificateItems from "../Components/CertificateItems";
 import Typewriter from "typewriter-effect";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import GoogleIcon from "@mui/icons-material/Google";
 
 function Home() {
   return (
     <>
       <section className="home">
         <div className="introduction">
-          <h1 className="name">Hi ,
+          <h1 className="name">
+            Hi ,
             <Typewriter
               options={{
                 autoStart: true,
                 loop: true,
                 delay: 40,
-                strings: ["I m Abdul Rafay", "I m a Software Engineer", "I m a FullStack Developer"],
+                strings: [
+                  "I m Abdul Rafay",
+                  "I m a Software Engineer",
+                  "I m a FullStack Developer",
+                ],
               }}
             />
           </h1>
@@ -27,16 +32,25 @@ function Home() {
           </p>
         </div>
         <div className="social-icons">
-          <a href="https://www.linkedin.com/in/rafayhere"  rel="noopener noreferrer" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/rafayhere"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <LinkedInIcon />
           </a>
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=khanrafay358@gmail.com"
-            target="_blank" rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <EmailIcon />
           </a>
-          <a href="https://github.com/meetrafay"  rel="noopener noreferrer" target="_blank">
+          <a
+            href="https://github.com/meetrafay"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <GitHubIcon />
           </a>
         </div>
@@ -66,42 +80,7 @@ function Home() {
       </section>
       <section className="certications">
         <h1>Achievements</h1>
-        <div className="box1">
-          <h3>Crash Course on Python</h3>
-          <div className="log">
-            <GoogleIcon />
-          </div>
-          <a
-            href="https://www.coursera.org/account/accomplishments/verify/YHFHRQ9FFLMH"
-            target="_blank"  rel="noopener noreferrer"
-          >
-            Click here to see the certificate
-          </a>
-        </div>
-        <div className="box1">
-          <h3>Programming with JavaScript</h3>
-          <div className="log">
-            <GoogleIcon />
-          </div>
-          <a
-            href="https://www.coursera.org/account/accomplishments/verify/2TDNRYJXV34B"
-            target="_blank"  rel="noopener noreferrer"
-          >
-            Click here to see the certificate
-          </a>
-        </div>
-        <div className="box1">
-          <h3>Front-End Development</h3>
-          <div className="log">
-            <GoogleIcon />
-          </div>
-          <a
-            href="https://www.coursera.org/account/accomplishments/verify/U5A5GJRB54BX "
-            target="_blank"  rel="noopener noreferrer"
-          >
-            Click here to see the certificate
-          </a>
-        </div>
+        <CertificateItems />
       </section>
     </>
   );
