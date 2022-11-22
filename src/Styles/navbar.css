@@ -19,7 +19,7 @@ header {
 }
 
 .resume-btn {
-  background-color:transparent;
+  background-color: transparent;
   color: white;
   border: 2px solid #e7e7e7;
 }
@@ -30,7 +30,6 @@ header {
 }
 
 .logo {
-  
   margin-left: 10px;
 }
 
@@ -64,6 +63,7 @@ header {
   display: none;
 }
 
+
 @media screen and (max-width: 600px) {
   .icon {
     display: flex;
@@ -82,46 +82,59 @@ header {
   }
 
   .logo {
-    /* display: flex;
-    justify-content: flex-start; */
-    visibility: hidden;
+    display: flex;
+    justify-content: flex-start;
   }
+
 }
 
-#open .navbar {
+
+#open .navbar{
   display: flex;
-  
+  margin: auto;
+}
+
+
+#open .logo {
+
+  display: none;
 }
 
 #open {
   height: 70vh;
- position: absolute;
- z-index: 1;
-}
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+ 
+  
+} 
 
-#open .logo {
-  /* display: flex;
-  align-items: baseline;
-  margin-top: 10px; */
-  visibility: hidden;
-}
 
 #open .icon {
   display: flex;
   align-items: baseline;
- 
+  
 }
 
 #open .navbar ul {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
-  justify-items: flex-start;
-  overflow: hidden;
+  margin: auto;
+  
 }
-#open .navbar ul li {
+
+#open .navbar ul li{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
+
+
+
+
+
+
+
+
+
 
 
