@@ -1,7 +1,10 @@
 .footer-bar {
   background-color: #21325e;
   padding: 15px;
+  position: relative;
+  bottom: 0;
   width: 100%;
+  height: 130px;
 }
 
 .socialMedia {
@@ -16,8 +19,8 @@
   padding: 5px;
 }
 
-.socialMedia a:hover{
-  color:  rgb(254, 254, 0);
+.socialMedia a:hover {
+  color: rgb(254, 254, 0);
 }
 
 .copyright {
@@ -26,3 +29,4 @@
   justify-content: center;
   margin: 15px;
 }
+

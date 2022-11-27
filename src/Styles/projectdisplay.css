@@ -3,13 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 21px;
+    /* margin-top: 10px; */
+  
+    height: 70.3vh;
 }
 
 .projectdisplay img{
     width: 50%;
-    height: 350px;
+    height: 450px;
     margin-top: 10px;
    
 }
@@ -23,7 +24,32 @@
     font-size: 30px;
 }
 @media screen and (max-width: 720px){
-    .projectdisplay img{
+    /* .projectdisplay img{
         height: 100px;
+    } */
+    .projectdisplay p{
+        text-align: center;
     }
 }
+
+@media screen and (max-width: 1440px){
+    .projectdisplay img{
+        width: 30%;
+        height: 180px;
+       }
+}
+
+@media screen and (max-width: 425px){
+    .projectdisplay img{
+        width: 50%;
+        height: 180px;
+       }
+}
+
+@media screen and (max-width: 375px){
+    .projectdisplay img{
+        width: 70%;
+        height: 180px;
+       }
+}
+

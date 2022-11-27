@@ -11,7 +11,7 @@ import "react-vertical-timeline-component/style.min.css";
 function Education() {
   return (
     
-    <div className="education">
+    <div className="education" >
      
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
