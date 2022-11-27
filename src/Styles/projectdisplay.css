@@ -3,14 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-top: 10px; */
-  
-    height: 70.3vh;
+    height: 75.2vh;
 }
 
 .projectdisplay img{
     width: 50%;
-    height: 450px;
+    height: 350px;
     margin-top: 10px;
    
 }
@@ -44,6 +42,9 @@
         width: 50%;
         height: 180px;
        }
+    .projectdisplay{
+        height: 70.3vh;
+    }
 }
 
 @media screen and (max-width: 375px){
